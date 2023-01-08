@@ -1,6 +1,3 @@
-<body>
-  <app-nav-menu></app-nav-menu>
-  <main class="container">
-    <router-outlet></router-outlet>
-  </main>
-</body>
+<ng-container *ngIf="vm$ | async as vm">
+    <h1>Web SPA</h1>
+</ng-container>
